@@ -795,8 +795,12 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
     height: 250px;
     flex: none;
   }
+  .row{
+    margin-right: 0;
+  }
 }
 #logo-center h1{
   margin-top: -35px !important;
   color: white !important;
+
 }
