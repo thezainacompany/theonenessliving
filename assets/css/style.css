@@ -802,5 +802,12 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
 #logo-center h1{
   margin-top: -35px !important;
   color: white !important;
-
+}
+.bull-h6{
+  display: flex;
+  gap: 10px;
+}.bull-h6::before{
+  content: "○";
+  color: #404B3C;
+  font-size: 20px;
 }
