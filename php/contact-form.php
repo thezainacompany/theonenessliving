@@ -4,10 +4,10 @@
 if(isset($_POST['url']) && $_POST['url'] == ''){
 
 	// put your email address here
-	$youremail = 'yourname@mail.com';  
+	$youremail = 'sarangperikkangil101@gmail.com';  
 
 	// add your self message here
-	$body = "You have got a new message from the contact form on your website - Copr :
+	$body = "You have got a new message from the contact form on your website  :
 	
 	Name:  $_POST[name]
 	Email:  $_POST[email]
@@ -35,4 +35,5 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
     <p>Thank you! We will get back to you soon.</p>
 </div>
 </body>
+
 </html>
