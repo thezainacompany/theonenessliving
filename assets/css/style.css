@@ -749,31 +749,38 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
 }
 
 .image-01 {
-  flex: 3;  
+  flex: 3;
+  min-width:0;
 }
 
 .image-02 {
-  flex: 3;  
+  flex: 3;
+  min-width:0;
 }
 
 .image-04 {
   flex: 1;
+  min-width:0;
 }
 
 .image-05 {
   flex: 2;
+  min-width:0;
 }
 
 .image-06 {  
   flex: 2;
+  min-width:0;
 }
 
 .image-07 { 
   flex: 1;
+  min-width:0;
 }
 
 .image-08 { 
   flex: 3;
+  min-width:0;
 }
 
 @media screen and (max-width: 768px) {
@@ -789,6 +796,7 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
   }
 
 }
+
 
 
 
