@@ -776,7 +776,7 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
   flex: 3;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
   .image-row {
     flex-direction: column;
     margin: 0px;
@@ -787,4 +787,5 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
     height: 250px;
     flex: none;
   }
+
 }
