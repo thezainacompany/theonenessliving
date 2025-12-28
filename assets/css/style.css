@@ -28,6 +28,7 @@
 /*----------------------------------------*/
 /*----- 2 General Styles -----*/
 /*----------------------------------------*/
+
 :root { --dtr-font-family-base: Manrope, Arial, Helvetica, sans-serif;
 --dtr-font-family-heading: Manrope, Arial, Helvetica, sans-serif;
 /*base colors*/
@@ -97,7 +98,7 @@
 --dtr-input-border-radius: var(--dtr-radius-square);
 }
 /*== Typography ==*/
-body { font-family: var(--dtr-font-family-base); font-size: var(--dtr-font-size-base, 15px); font-weight: var(--dtr-font-weight-normal, 400); line-height: var(--dtr-line-height-normal); font-style: normal; -webkit-font-smoothing: antialiased; overflow-x: hidden; background-color: var(--dtr-white); color: var(--dtr-text-color-main); overflow-x:hidden; }
+body { font-family: var(--dtr-font-family-base); font-size: var(--dtr-font-size-base, 15px); font-weight: var(--dtr-font-weight-normal, 400); line-height: var(--dtr-line-height-normal); font-style: normal; -webkit-font-smoothing: antialiased; overflow-x: hidden; background-color: var(--dtr-white); color: var(--dtr-text-color-main); }
 html { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 *, *:before, *:after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
 h1, h2, h3, h4, h5, h6 { font-family: var(--dtr-font-family-heading); font-weight: var(--dtr-font-weight-heading); line-height: var(--dtr-line-height-heading); padding: 0; margin: 0 0 1rem 0; clear: both; -webkit-font-smoothing: antialiased; color: var(--dtr-text-color-heading); }
@@ -798,5 +799,4 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
 #logo-center h1{
   margin-top: -35px !important;
   color: white !important;
-
 }
