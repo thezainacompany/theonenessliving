@@ -747,7 +747,7 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
 }
 
 .image-01 {
-  background-image: url("/assets/images/image2.jpg"); 
+  background-image: url("assets/images/image2.jpg"); 
   flex: 3;  
 }
 
@@ -794,3 +794,4 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
   }
 
 }
+
