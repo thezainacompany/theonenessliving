@@ -782,7 +782,34 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
   flex: 3;
   min-width: 0;
 }
-
+.image-09 { 
+  flex: 1;
+  min-width: 0;
+}
+.image-10 { 
+  flex: 3;
+  min-width: 0;
+}
+.image-11 { 
+  flex: 1.5;
+  min-width: 0;
+}
+.image-12 { 
+  flex: 3;
+  min-width: 0;
+}
+.image-13 { 
+  flex: 1;
+  min-width: 0;
+}
+.image-14 { 
+  flex: 1;
+  min-width: 0;
+}
+.image-15 { 
+  flex: 1;
+  min-width: 0;
+}
 @media screen and (max-width: 728px) {
   .image-row {
     flex-direction: column;
