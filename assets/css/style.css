@@ -833,10 +833,12 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
 .bull-h6{
   display: flex;
   gap: 10px;
+  font-weight: 500 !important;
 }.bull-h6::before{
-  content: "○";
+  content: "◈";
   color: #404B3C;
   font-size: 20px;
 
 }
+
 
