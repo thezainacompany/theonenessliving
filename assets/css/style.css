@@ -728,6 +728,7 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
 .image-grid {
   padding: 20px;
   height: 100%;
+  padding-left: 0 !important;
 }
 
 .image-row {
@@ -840,6 +841,7 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
   font-size: 20px;
 
 }
+
 
 
 
