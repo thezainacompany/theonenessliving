@@ -377,7 +377,7 @@ blockquote { padding: 30px; margin: 0; border-style: solid; border-width: 0 0 0 
 .dtr-timeline__highlight { display: inline-block; padding: 2px 15px; margin-bottom: 15px; background-color: var(--dtr-bg-secondary); color: var(--dtr-text-color-on-secondary); }
 .dtr-timeline__heading { margin-bottom: 10px; }
 /*===== feature =====*/
-.dtr-feature { display: flex; align-items: flex-start; }
+.dtr-feature { display: flex; align-items: flex-start; justify-content:center; text-align: center; }
 .dtr-feature__subtext { margin: 0; padding: 0 0 5px 0; }
 .dtr-feature__heading { margin: 0; padding: 0; }
 .dtr-feature__text { margin: 20px 0 0 0; }
@@ -841,6 +841,7 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
   font-size: 20px;
 
 }
+
 
 
 
