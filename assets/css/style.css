@@ -178,7 +178,7 @@ ol li, ul li { margin-bottom: 10px; }
 /*----------------------------------------*/
 /*----- 4 Buttons -----*/
 /*----------------------------------------*/
-button, .dtr-btn, .dtr-form-btn, input[type="submit"], button[type="submit"], input[type="reset"] { position: relative; width: auto; height: auto; padding: 15px 30px; border-width: var(--dtr-input-border-width); border-style: solid; border-radius: var(--dtr-btn-border-radius); text-decoration: none; outline: none; cursor: pointer; -webkit-backface-visibility: hidden; text-align: center;  font-size: var(--dtr-btn-font-size, 16px); font-weight: var(--dtr-btn-font-weight); line-height: var(--dtr-btn-line-height); -webkit-transition: all .3s ease; transition: all .3s ease; }
+button, .dtr-btn, .dtr-form-btn, input[type="submit"], button[type="submit"], input[type="reset"] { position: relative; width: auto; height: auto; padding: 15px 30px; border-width: var(--dtr-input-border-width); border-style: solid; border-radius: var(--dtr-btn-border-radius); text-decoration: none; outline: none; cursor: pointer; -webkit-backface-visibility: hidden; text-align: center;  font-size: var(--dtr-btn-font-size, 16px); font-weight: 300; line-height: var(--dtr-btn-line-height); -webkit-transition: all .3s ease; transition: all .3s ease; }
 .dtr-btn--rounded { border-radius: var(--dtr-radius-rounded); }
 .dtr-btn--round { border-radius: var(--dtr-radius-round); }
 /* flex */
@@ -840,6 +840,7 @@ a:link, .dtr-nav a, #dtr-header-global, .dtr-form-btn, input, select, textarea, 
   font-size: 20px;
 
 }
+
 
 
 
