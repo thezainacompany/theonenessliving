@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 992px) {
-.container { width: 100%; max-width: 100%; }
+.container { width: 100%; max-width: 100%; margin-top: -50px; }
 .small-device-top-space { margin-top: 30px !important; }
 .dtr-footer-col-shrink, .padding-r-50 { padding-right: 0; }
 .width-50-center-align, .width-50-right-align, .width-50-left-align { width: 100%; margin: 0; }
@@ -37,4 +37,5 @@
 .dtr-single-nav__prev { width: 100%; padding-right: 0; }
 .dtr-single-nav__next { width: 100%; padding-left: 0; margin-top: 30px; text-align: left; }
 #dtr-footer-section .text-right { text-align: left; }
+
 }
